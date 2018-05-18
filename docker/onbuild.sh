@@ -25,7 +25,7 @@ fi
 
 # Install Meteor
 echo [minimeteor] Installing Meteor
-sudo -u user curl "https://install.meteor.com/" | sh
+sudo -u user curl "https://install.meteor.com/?release=1.6.0.1" | sh
 
 # Install NPM packages
 echo [minimeteor] Installing NPM dependencies
